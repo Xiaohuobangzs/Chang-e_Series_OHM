@@ -57,13 +57,7 @@ button:hover span:after {
   opacity: 1;
   right: 0;
   }
-body {
-    font-family: Arial, sans-serif;
-    background-image: url('./image/bj.jpg'); /* 添加背景图像 */
-    background-size: cover; /* 背景图像覆盖整个页面 */
-    background-position: center; /* 背景图像居中显示 */
-  }
-  .login-container {
+.login-container {
     width: 300px;
     margin: 100px auto;
     padding: 20px;
@@ -79,7 +73,7 @@ body {
     border-radius: 5px;
     box-sizing: border-box;
   }
-  .btn1 {
+  .button {
     width: 100%;
     padding: 10px;
     border: none;
@@ -88,6 +82,6 @@ body {
     border-radius: 5px;
     cursor: pointer;
   }
-  .btn1:hover {
+  .button {
     background-color: #4cae4c;
   }
