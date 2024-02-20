@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<script>
+	// 检查localStorage中是否有登录标志
+	if(localStorage.getItem('isLoggedIn') !== 'true') {
+	  // 如果没有登录标志，重定向到登录页面
+	  window.location.href = './login.html';
+	}
+	</script>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<meta charset="utf-8">
+		<title>嫦娥系列介绍 - 嫦娥一号</title>
+		<h1>嫦娥一号介绍</h1>
+		<h2>介绍此系列：</h2>
+		<p>
+			嫦娥一号是中国探月计划中的第一颗绕月人造卫星，以中国古代神话人物嫦娥命名。
+			2007年10月24日，嫦娥一号在西昌卫星发射中心发射升空 ；2009年3月1日，嫦娥一号完成使命，撞击月球表面预定地点。
+			嫦娥一号卫星首次绕月探测的成功，树立了中国航天的第三个里程碑，突破了一大批具有自主知识产权的核心技术和关键技术，使中国成为世界上为数不多具有深空探测能力的国家。
+			<br />下方视频片源：百度百科/科普中国
+		</p>
+		<center>
+		<video width="320" height="240" controls>
+		  <source src="../image/ce1.mp4" type="video/mp4">
+		</video>
+		</center>
+		<center><button id="startindex"><a href="./change2.html">继续 The Next Page</a></button></center>
+	</head>
+	<body background="../image/bj.jpg" <!--background=".../...jpg'" 
+	style="background-repeat:no-repeat;<!--设置图片不重复显示-->
+	background-attachment:fixed;<!--设置图片的位置固定-->
+	background-size:100% 100%; "><!--设置图片达到窗口100%的比例-->
+	</body>
+</html>
