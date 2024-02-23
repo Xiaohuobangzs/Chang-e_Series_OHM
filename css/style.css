@@ -1,9 +1,13 @@
 body {
-    font-family: Arial;
-    background-image: url('../image/bj.jpg'); /* 添加背景图像 */
-    background-size: cover; /* 背景图像覆盖整个页面 */
-    background-position: center; /* 背景图像居中显示 */
+	font-family: Arial;
+	background-image: url('../image/bj.jpg');
+	/* 添加背景图像 */
+	background-size: cover;
+	/* 背景图像覆盖整个页面 */
+	background-position: center;
+	/* 背景图像居中显示 */
 }
+
 h1 {
 	color: rosybrown;
 	font-size: 30px;
@@ -23,65 +27,51 @@ footer {
 }
 
 button {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: skyblue;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
+	background-color: #f66f6a;
+	color: white;
+	width: 400px;
+	height: 45px;
+	border: 0;
+	font-size: 16px;
+	box-sizing: content-box;
+	border-radius: 5px;
 }
-button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+
+button:hover {
+	background-color: #a54b4a;
 }
-button span:after {
-content: '\00bb'; 
-position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-button:hover span {
-  padding-right: 25px;
-}
-button:hover span:after {
-  opacity: 1;
-  right: 0;
-  }
+
 .login-container {
-    width: 300px;
-    margin: 100px auto;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.8); /* 为了更好的可读性，设置半透明背景 */
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  input[type="text"], input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-sizing: border-box;
-  }
-  .button {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    background-color: #5cb85c;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  .button {
-    background-color: #4cae4c;
-  }
+	width: 300px;
+	margin: 100px auto;
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.8);
+	/* 为了更好的可读性，设置半透明背景 */
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.button {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	background-color: #5cb85c;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.button {
+	background-color: #4cae4c;
+}
+
